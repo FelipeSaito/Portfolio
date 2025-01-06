@@ -1,0 +1,85 @@
+/* Importação de fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black; /* Cor de fundo para teste */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+
+.content {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--main-color);/* Cor do texto do título */
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.img-container {
+    margin-top: 20px; /* Adiciona margem superior à imagem */
+}
+
+img {
+    max-width: 100%; /* Faz a imagem responsiva */
+    height: auto;    /* Mantém a proporção da imagem */
+}
+
+/* Exemplo de uma classe para uma div com um gif de fundo */
+.div-com-gif {
+    background-image: url('images/nome-do-gif.gif');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto; /* Centraliza a div na página */
+}
+
+.back-button {
+    background-color: var(--main-color); /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    margin-top: 20px; /* Margem acima do botão */
+}
+
+.back-button:hover {
+    background-color: darken(var(--main-color), 10%); /* Efeito ao passar o mouse */
+}
+
+body {
+    background-color: black; /* Cor de fundo para teste */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+
+.back-button {
+    background-color: var(--main-color); /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    padding: 12px 24px; /* Aumenta o espaçamento interno */
+    font-size: 35   px; /* Tamanho da fonte */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    margin-top: 10px; /* Diminui a margem acima do botão */
+    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+.back-button:hover {
+    background-color: darken(var(--main-color), 10%); /* Efeito ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão ao passar o mouse */
+}
+
