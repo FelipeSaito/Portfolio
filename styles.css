@@ -229,7 +229,7 @@ section {
         content: "UI Designer";
     }
     62%, 80% {
-        content: "Back-And";
+        content: "Back-End";
     }
     81%, 100% {
         content: "Full Stack";
@@ -478,6 +478,10 @@ section {
     transition: 0.4s ease-in-out;
     
 }
+.testimonials-item .social {
+    margin-top: 10px; /* Ajusta o espaçamento */
+    text-align: center; /* Centraliza o botão do LinkedIn */
+}
 .testimonials-item:hover{
     border: 3px solid var(--main-color);
     transform: translateY(-10px)scale(1.03);
@@ -552,7 +556,7 @@ section {
     
 }
 
-.footer .social{
+.social{
     text-align: center;
     padding-bottom: 25px;
     color: var(--main-color);
@@ -560,7 +564,7 @@ section {
 
 }
 
-.footer .social a{
+.social a{
     font-size: 25px;
     color: var(--main-color);
     border:2px solid var(--main-color);
@@ -576,7 +580,7 @@ section {
 
 }
 
-.footer .social a:hover{
+.social a:hover{
     transform: scale(1.2)translateY(-10px);
     background-color: var(--main-color);
     color: black;

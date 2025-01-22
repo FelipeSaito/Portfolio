@@ -13,7 +13,7 @@
         <a href="#home" class="logo">Felipe <span class="blue">Saito</span></a> 
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#home" class="active">Início</a>
+            <a href="#home">Início</a>
             <a href="#formacoes">Formações</a>
             <a href="#servicos">Serviços</a>
             <a href="#depoimentos">Depoimentos</a>
@@ -88,28 +88,28 @@
             <div class="service-box">
                 <div class="service-info">
                     <h4>Design UI</h4>
-                    <p>O UI é uma área do design que se concentra na criação e aprimoramento das interfaces com as quais os usuários interagem em produtos digitais, como aplicativos, sites, sistemas embarcados, dispositivos inteligentes e softwares. É responsável por projetar a aparência visual, a disposição dos elementos e a interação do usuário com a interface.</p>
+                    <p>O UI (Interface do Usuário) é uma disciplina do design dedicada à criação e aprimoramento das interfaces digitais com as quais os usuários interagem, abrangendo aplicativos, sites, sistemas embarcados, dispositivos inteligentes e softwares. Sua principal função é projetar a estética visual, organizar os elementos de forma intuitiva e otimizar a interação do usuário com a interface.</p>
                 </div>    
             </div>
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Desenvolvimento Frontend</h4>
-                    <p>O desenvolvedor front-end é o responsável por projetar o design de um site ou interface por meio de códigos. </p>
+                    <h4>Desenvolvimento Front-end</h4>
+                    <p>O desenvolvedor front-end é o profissional responsável por implementar o design de um site ou interface, traduzindo conceitos visuais em código para garantir uma experiência interativa e funcional para o usuário.</p>
                 </div>    
             </div>
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Desenvolvimento Backend</h4>
-                    <p>As pessoas desenvolvedoras de Back-end trabalham principalmente para fazer uma ponte entre os dados do navegador rumo ao banco de dados e vice-versa.</p>
+                    <h4>Desenvolvimento Back-end</h4>
+                    <p>As desenvolvedoras e desenvolvedores de back-end são responsáveis por estabelecer a conexão entre os dados no navegador e o banco de dados, garantindo o processamento, a segurança e a integridade das informações trocadas entre o servidor e o cliente.</p>
                 </div>    
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Full Stack</h4>
-                    <p>Full Stack developer são pessoas que trabalham tanto com Front-end quanto com Back-end</p>
+                    <p>Um Full Stack Developer é um profissional que trabalha no desenvolvimento completo de aplicações, abrangendo tanto o Front-end (interface e interação com o usuário) quanto o Back-end (lógica, banco de dados e servidores).</p>
                 </div>    
             </div>
         </div>
@@ -131,6 +131,11 @@
                         <i class='bx bxs-star' id="star"></i>
                     </div>
                     <p>"Trabalhar com Felipe foi uma experiência incrível. Sua habilidade de resolver problemas complexos de forma prática e eficiente é impressionante. Recomendo para qualquer projeto de tecnologia!" </p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/kevin-lemos-72733a278/">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
                 </div>
             
                 <div class="testimonials-item">
@@ -144,6 +149,11 @@
                         <i class='bx bxs-star' id="star"></i>
                     </div>
                     <p>"O Felipe sempre entrega mais do que promete. Ele combina um conhecimento técnico profundo com uma dedicação que inspira confiança. Sem dúvidas, um profissional de excelência!" </p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/brenovargaspereira/">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
                 </div>
             
                 <div class="testimonials-item">
@@ -157,14 +167,19 @@
                         <i class='bx bxs-star' id="star"></i>
                     </div>
                     <p>"O que mais me impressiona no Felipe é sua capacidade de transformar ideias em soluções reais. Ele é focado, criativo e extremamente confiável. Um parceiro ideal para qualquer projeto!" </p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/julio-pereira-767b63213/">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="contact" id="contato">
-        <h2 class="heading">Contate<span> Me</span></h2>
-
+        <h2 class="heading">Contate-Me</h2>
+    
         <form action="https://formsubmit.co/felipeyukiosaito@gmail.com" method="POST" class="contact-form">
             <div class="input-group">
                 <div class="input-box">
@@ -174,11 +189,11 @@
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
                 </div>
                 <div class="input-box">
-                    <input type="tel" name="phone" placeholder="11-123456789" required>
+                    <input type="tel" name="phone" placeholder="11-123456789" required pattern="^\d{2}-\d{9}$" title="Digite o número de telefone no formato 11-123456789" maxlength="12">
                     <input type="text" name="subject" placeholder="Assunto" required> 
                 </div>
             </div>
-
+    
             <div class="input-group-2">
                 <textarea name="message" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
                 <input type="submit" value="Enviar Mensagem" class="btn">
