@@ -222,6 +222,7 @@ body {
     background: transparent;
     cursor: pointer;
     overflow: hidden;
+    border-radius: 50px; /* Certifique-se de que o botão tenha bordas arredondadas */
 }
 
 .button-content {
@@ -231,9 +232,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    color: var(--main-color);
+    color: var(--main-color); /* Cor do texto */
     font-size: 1rem;
     font-weight: 500;
+    transition: transform 0.3s ease; /* Suavidade para o hover */
 }
 
 .button-glow {
@@ -243,7 +245,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 255, 238, 0.1);
-    border-radius: 50px;
+    border-radius: inherit; /* Herdar o border-radius do botão */
     transition: all 0.3s ease;
 }
 
@@ -253,8 +255,8 @@ body {
 }
 
 .return-button:hover .button-content {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+    transform: scale(1.05); /* Aumenta levemente no hover */
+    color: var(--main-color); /* Mantém a mesma cor do texto */
 }
 
 @keyframes pulse {
