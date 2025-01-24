@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/obrigado",
+        "destination": "/obrigado.html",
+        "permanent": true
+      }
+    ]
+  }
