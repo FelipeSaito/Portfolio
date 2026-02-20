@@ -15,7 +15,7 @@
         <nav class="navbar">
             <a href="#home">Início</a>
             <a href="#formacoes">Formações</a>
-            <a href="#servicos">Serviços</a>
+            <a href="#projetos">Projetos</a>
             <a href="#depoimentos">Depoimentos</a>
             <a href="#contato">Contato</a>
         </nav>
@@ -25,9 +25,13 @@
         <div class="home-content">
             <h1>Olá, me chamo Felipe<span> Saito</span></h1>
             <h3 class="text-animation">Eu sou <span></span></h3>
-            <p>"Formado em Análise e desenvovimento de Sistemas na Faculdade UniFecaf.
-                Estou empolgado para aplicar meus conhecimentos em projetos práticos e desafiadores, contribuindo para o desenvolvimento de soluções inovadoras. 
-                <P>Tenho conhecimento em Desenvolvimento Web, Front-end e Desenvolvimento Mobile estou sempre em busca de aprender novas ferramentas e técnicas. Acredito que a experiência no mercado de trabalho será fundamental para aprimorar minhas habilidades e me tornar um profissional mais completo, capaz de enfrentar os desafios do mundo da tecnologia." </p>
+        <p>
+        Sou Desenvolvedor formado em Análise e Desenvolvimento de Sistemas pela UniFECAF e atualmente estou cursando Pós-Graduação em Front-End Engineering pela FIAP (Pos Tech), com foco em arquitetura de interfaces, performance e design systems.
+        </p>
+
+        <p>
+        Tenho experiência no desenvolvimento de aplicações web e mobile, transformando ideias em soluções funcionais, intuitivas e orientadas à experiência do usuário.
+        </p>
             <div class="btn-group"> 
                 <a href="#contato" class="btn">Contato</a>
             </div>
@@ -38,7 +42,7 @@
             </div>
         </div>
         <div class="home-img">
-            <img src="Assets/Minha_Foto.jpeg" alt="Felipe Saito">
+            <img src="Assets/Foto2.png" alt="Felipe Saito">
         </div>
     </section>
 
@@ -50,7 +54,7 @@
                 <div class="timeline-date">2021</div>
                 <div class="timeline-content">
                     <h3>Ensino Médio</h3>
-                    <p>Estudei no Colégio Guararapes localizado no Campo Limpo.</p>
+                    <p>Realizei minha formação básica no Colégio Guararapes, localizado no bairro Campo Limpo.</p>
                 </div>
             </div>
             <div class="timeline-item">
@@ -58,7 +62,7 @@
                 <div class="timeline-date">2023</div>
                 <div class="timeline-content">
                     <h3>Faculdade</h3>
-                    <p>Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade UniFECAF, localizada em Taboão da Serra.</p>
+                    <p>Sou graduado em Análise e Desenvolvimento de Sistemas pela UniFECAF – Centro Universitário FECAF, situada em Taboão da Serra.</p>
                 </div>
             </div>
             <div class="timeline-item">
@@ -77,41 +81,169 @@
                     </p>
                 
                 </div>
-            </div>      
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <h3>Pós-Graduação</h3>
+                    <p>
+                        Atualmente cursando Pós-Graduação em Front-End Engineering na FIAP (Pos Tech), aprofundando conhecimentos em arquitetura de interfaces, performance, design systems e experiência do usuário.
+                    </p>
+                </div>
+            </div>        
         </div>         
     </section> 
     
-    <section class="service" id="servicos">
-        <h2 class="heading">Serviços</h2>
-        
-        <div class="service-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Design UI</h4>
-                    <p>“Responsável por projetar a estética visual, organizar os elementos de forma intuitiva e otimizar a interação do usuário com a interface. (Conhecimentos em Figma e Canva.)”</p>
-                </div>    
+   <section class="projects" id="projetos">
+  <h2 class="heading">Projetos</h2>
+
+  <p class="projects-subtitle">
+    Seleção de projetos com foco em Front-end, UI e performance. Cada card tem preview, stack e links.
+  </p>
+
+  <div class="projects-grid">
+
+    <!-- 1) Flagship (Front-end forte) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="Assets/projects/everestgaming-preview.jpg" alt="Preview do EverestGaming" loading="lazy">
+        <div class="project-overlay">
+          <div class="project-overlay-content">
+            <h3>EverestGaming</h3>
+            <p>Plataforma web focada em games, arquitetura de componentes e UI consistente.</p>
+
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">UI</span>
+              <span class="tag">CSS</span>
             </div>
 
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Desenvolvimento Front-end</h4>
-                    <p>O desenvolvedor front-end é o profissional responsável por implementar o design de um site ou interface, traduzindo conceitos visuais em código para garantir uma experiência interativa e funcional para o usuário. (Conhecimentos em HTML,CSS,JavaScript)</p>
-                </div>    
+            <div class="project-actions">
+              <a class="pbtn" href="#" target="_blank" rel="noopener">Ver Deploy</a>
+              <a class="pbtn pbtn-outline" href="#" target="_blank" rel="noopener">GitHub</a>
+             <a class="pbtn pbtn-figma" href="COLE_AQUI_SEU_LINK_DO_FIGMA" target="_blank" rel="noopener">
+    Figma
+  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-footer">
+        <div>
+          <h4 class="project-title">EverestGaming</h4>
+          <p class="project-role">Front-end • UI • Componentização</p>
+        </div>
+        <span class="project-year">2026</span>
+      </div>
+    </article>
+
+    <!-- 2) Mobile (bom para mostrar versatilidade sem tirar o foco de FE) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="Assets/projects/AppMobile.png" alt="Preview do Pastel Delivery App" loading="lazy">
+        <div class="project-overlay">
+          <div class="project-overlay-content">
+            <h3>Pastel Delivery App</h3>
+            <p>App mobile para pedidos/reservas com experiência fluida e navegação moderna.</p>
+
+            <div class="project-tags">
+              <span class="tag">React Native</span>
+              <span class="tag">Expo</span>
+              <span class="tag">UX</span>
             </div>
 
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Desenvolvimento Mobile</h4>
-                    <p>Desenvolvedor mobile é o profissional responsável por criar, testar e manter aplicativos para dispositivos móveis, como smartphones e tablets, garantindo boa performance, usabilidade e integração com os sistemas operacionais, como Android e iOS.(Conhecimento em React Native e Kotlin)</p>
-                </div>    
+            <div class="project-actions">
+              <a class="pbtn" href="#" target="_blank" rel="noopener">Ver Preview</a>
+              <a class="pbtn pbtn-outline" href="#" target="_blank" rel="noopener">GitHub</a>
+              <a class="pbtn pbtn-figma" href="https://www.figma.com/design/u5rUPocZTk6ZZZB9MRLWqI/Pastel-J%C3%A1?node-id=0-1&p=f&t=G6tcGsYwm3IaZdxs-0  " target="_blank" rel="noopener">
+    Figma
+  </a>
             </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Desenvolvimento Jogos</h4>
-                    <p>Desenvolvedor de jogos é o profissional responsável por planejar, programar e testar jogos digitais, criando mecânicas, interações e elementos visuais que proporcionem uma experiência envolvente para os jogadores, em diferentes plataformas como PC, consoles e dispositivos móveis. (Conhecimento em Godot Engine)</p>
-                </div>    
+          </div>
+        </div>
+      </div>
+
+      <div class="project-footer">
+        <div>
+          <h4 class="project-title">Pastel Delivery App</h4>
+          <p class="project-role">Mobile • UX • Navegação</p>
+        </div>
+        <span class="project-year">2026</span>
+      </div>
+    </article>
+
+    <!-- 3) JS/DOM (mostra base sólida) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="Assets/projects/fokus-preview.jpg" alt="Preview do Projeto Fokus" loading="lazy">
+        <div class="project-overlay">
+          <div class="project-overlay-content">
+            <h3>Projeto Fokus</h3>
+            <p>Aplicação web interativa em JavaScript com foco em manipulação de DOM, lógica e experiência de usuário.</p>
+
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">DOM</span>
+              <span class="tag">HTML/CSS</span>
             </div>
-    </section>
+
+            <div class="project-actions">
+              <a class="pbtn" href="https://felipesaito.github.io/Projeto-Fokus-JavaScripts/" target="_blank" rel="noopener">Ver Deploy</a>
+              <a class="pbtn pbtn-outline" href="https://github.com/FelipeSaito/Projeto-Fokus-JavaScripts.git" target="_blank" rel="noopener">GitHub</a>
+              <a class="pbtn pbtn-figma" href="COLE_AQUI_SEU_LINK_DO_FIGMA" target="_blank" rel="noopener">
+    Figma
+  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-footer">
+        <div>
+          <h4 class="project-title">Projeto Fokus</h4>
+          <p class="project-role">Web • Interatividade • DOM</p>
+        </div>
+        <span class="project-year">2025</span>
+      </div>
+    </article>
+
+    <!-- 4) Extra (se quiser) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="Assets/projects/Transtorno_Alimentar.webp" alt="Transtorno-Alimentar" loading="lazy">
+        <div class="project-overlay">
+          <div class="project-overlay-content">
+            <h3>Blog Educacional sobre Transtorno-Alimentar</h3>
+            <p>Plataforma educacional com layout responsivo e páginas bem estruturadas.</p>
+
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="pbtn" href="https://transtorno-alimentar.vercel.app/" target="_blank" rel="noopener">Ver Deploy</a>
+              <a class="pbtn pbtn-outline" href="https://github.com/FelipeSaito/Transtorno-Alimentar" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-footer">
+        <div>
+          <h4 class="project-title">Blog Educacional sobre Transtorno-Alimentar</h4>
+          <p class="project-role">Web • Layout • UI</p>
+        </div>
+        <span class="project-year">2025</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
 
     <section class="testimonials" id="depoimentos">
         <div class="testimonials-box">
@@ -182,7 +314,7 @@
             <div class="input-group">
                 <div class="input-box">
                     <input type="text" name="name" placeholder="Nome completo" required>
-                    <input type="email" name="email" placeholder="E-mail" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="JulioPereira@gmail.com">
+                    <input type="email" name="email" placeholder="E-mail" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Digite um e-mail válido">
                     <input type="hidden" name="_captcha" value="false">
                 </div>  
                 <div class="input-box">
@@ -204,13 +336,14 @@
             <a href="https://github.com/FelipeSaito"><i class='bx bxl-github'></i></a>
             <a href="https://www.instagram.com/felipe_yuk1o/?next=%2F"><i class='bx bxl-instagram'></i></a>
         </div>
+
         
         <ul class="list">
             <li>    
                 <a href="#home" class="active">Inicio</a>
             </li>
             <li>
-                <a href="#servicos">Serviços</a>
+                 <a href="#projetos">Projetos</a>
             </li>
             <li>
                 <a href="#home">Sobre mim</a>
